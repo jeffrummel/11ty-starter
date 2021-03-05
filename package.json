@@ -26,6 +26,7 @@
     "postcss-pixels-to-rem": "^0.8.0",
     "postcss-preset-env": "^6.5.0",
     "precss": "^4.0.0",
+    "pug": "^3.0.1",
     "pump": "^3.0.0",
     "require-dir": "^1.2.0"
   },
