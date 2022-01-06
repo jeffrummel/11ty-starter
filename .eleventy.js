@@ -19,8 +19,8 @@ module.exports = function(config) {
       includes: "includes"
     },
     passthroughFileCopy: true,
-    templateFormats: ['pug', 'md'],
-    htmlTemplateEngine: 'pug',
+    templateFormats: ['njk', 'md'],
+    htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'md'
   };
 };
