@@ -28,7 +28,8 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^7.0.1",
     "postcss-csso": "^3.0.0",
     "postcss-pixels-to-rem": "^0.8.0",
     "sass-rem": "^2.0.1"
