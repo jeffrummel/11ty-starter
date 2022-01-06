@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "gen": "gulp generate",
-    "start": "gulp build:production & gulp watch & gulp serve",
+    "start": "gulp build & gulp watch & gulp serve",
     "build": "gulp build",
     "build:local": "gulp build:local",
     "serve": "gulp watch & gulp serve"
