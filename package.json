@@ -23,14 +23,14 @@
     "precss": "^4.0.0",
     "pug": "^3.0.1",
     "pump": "^3.0.0",
-    "require-dir": "^1.2.0"
+    "require-dir": "^1.2.0",
+    "sass": "^1.52.3"
   },
   "devDependencies": {
     "gulp": "4.0.2",
     "gulp-live-server": "^0.0.31",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^5.0.0",
-    "node-sass": "^7.0.1",
     "postcss-csso": "^3.0.0",
     "postcss-pixels-to-rem": "^0.8.0",
     "sass-rem": "^2.0.1"
