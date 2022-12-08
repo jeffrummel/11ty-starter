@@ -10,7 +10,7 @@
   "scripts": {
     "gen": "gulp generate",
     "start": "gulp build & gulp watch & gulp serve",
-    "build": "gulp build",
+    "build": "gulp build:production",
     "build:local": "gulp build:local",
     "serve": "gulp watch & gulp serve"
   },
@@ -20,7 +20,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-shell": "^0.6.5",
     "gulp-uglify-es": "^1.0.4",
-    "precss": "^4.0.0",
     "pug": "^3.0.1",
     "pump": "^3.0.0",
     "require-dir": "^1.2.0",

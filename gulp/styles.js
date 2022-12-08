@@ -4,7 +4,7 @@ var sass    = require('gulp-sass')(require('sass'));
 var postcss = require('gulp-postcss');
 
 //  Plugins
-var precss  = require('precss');
+// var precss  = require('precss');
 var csso    = require('postcss-csso');
 var pixelstorem = require('postcss-pixels-to-rem');
 
@@ -20,7 +20,6 @@ gulp.task('styles:production', function() {
     pixelstorem({
       base: 16
     }),
-    precss(),
     csso({forceMediaMerge: true})
   ];
   return gulp.src(project.dest + '/css/*.css')
