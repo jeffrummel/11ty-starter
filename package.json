@@ -19,14 +19,15 @@
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-shell": "^0.6.5",
-    "gulp-uglify-es": "^1.0.4",
+    "gulp-uglify-es": "3.0.0",
+    "postcss": "^6.0.0",
     "pug": "^3.0.1",
     "pump": "^3.0.0",
     "require-dir": "^1.2.0",
     "sass": "^1.52.3"
   },
   "devDependencies": {
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-live-server": "^0.0.31",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^5.0.0",
