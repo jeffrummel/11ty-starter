@@ -4,9 +4,7 @@ This is a boilerplate for kicking off a new [Eleventy](https://www.11ty.io/) Pro
 
 ## Stack
 
-- Pug Template engine
-- PostCSS for CSS
+- Nunjucks Template engine
+- dardsass for CSS
 - Vanilla JS
 - Also includes directories for fonts and images
-
-[Eleventy One](https://github.com/philhawksworth/eleventyone) by Phil Hawksworth served as a guide.

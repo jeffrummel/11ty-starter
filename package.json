@@ -1,38 +1,28 @@
 {
   "name": "11ty-starter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Starter Site for Eleventy Projects",
   "main": "gulpfile.js",
   "repository": "git@github.com:jeffrummel/11ty-starter.git",
   "author": "Jeff Rummel <jeff@jeffrummel.com>",
+  "type": "module",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "gen": "gulp generate",
-    "start": "gulp build & gulp watch & gulp serve",
-    "build": "gulp build:production",
-    "build:local": "gulp build:local",
-    "serve": "gulp watch & gulp serve"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "gulp-clean": "^0.4.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-shell": "^0.6.5",
-    "gulp-uglify-es": "3.0.0",
-    "postcss": "^7.0.36",
-    "pug": "^3.0.1",
-    "pump": "^3.0.0",
-    "require-dir": "^1.2.0",
-    "sass": "^1.52.3"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "@grimlink/eleventy-plugin-sass": "^1.0.3",
+    "eleventy-sass": "^2.2.6",
+    "html-minifier-terser": "^7.2.0",
+    "luxon": "^3.5.0",
+    "markdown-it-anchor": "^9.2.0",
+    "sass": "^1.84.0"
   },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-live-server": "^0.0.31",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^5.0.0",
-    "postcss-csso": "^3.0.0",
-    "postcss-pixels-to-rem": "^0.8.0",
-    "sass-rem": "^2.0.1"
-  }
+  "devDependencies": {}
 }

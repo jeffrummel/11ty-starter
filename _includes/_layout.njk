@@ -19,7 +19,7 @@
       <h1 class="long__hed--title">{{ title }}</h1>
       <h2 class="long__hed--sub">{{ subHed }}</h2>
     </header>
-    <article class="long__body">{{ body }}</article>
+    <article class="long__body">{{ content | safe }}</article>
     <script src="/js/main.js" async></script>
   </body>
 </html>
